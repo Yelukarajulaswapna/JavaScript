@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Create an empty array with the fruits
+            let fruits=[]
+            fruits.push('mango')        
+            console.log(fruits)             //['mango']
+            fruits.unshift('kiwi')       
+            console.log(fruits)             //['kiwi', 'mango']
+            fruits.unshift('cherry')        
+            console.log(fruits)             //['cherry', 'kiwi', 'mango']
+            fruits.push('papaya')           
+            console.log(fruits)             //['cherry', 'kiwi', 'mango', 'papaya']
+            fruits.push('pineapple')        
+            console.log(fruits)             //['cherry', 'kiwi', 'mango', 'papaya', 'pineapple']
+            fruits.push('banana')           
+            console.log(fruits)             //['cherry', 'kiwi', 'mango', 'papaya', 'pineapple', 'banana']
+            fruits.shift()
+            console.log(fruits)             //['kiwi', 'mango', 'papaya', 'pineapple', 'banana']
+            fruits.shift()
+            console.log(fruits)             //['mango', 'papaya', 'pineapple', 'banana']
+            fruits.pop()
+            console.log(fruits)             //['mango', 'papaya', 'pineapple']
+            fruits.pop()
+            console.log(fruits)             //['mango', 'papaya']
+            
+        </script>
+    </body>
+</html>
